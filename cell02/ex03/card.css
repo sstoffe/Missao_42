@@ -1,0 +1,91 @@
+/* Estilos gerais para o corpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cartão de perfil */
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Título do cartão */
+.title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Container da foto de perfil e informações */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo da foto de perfil */
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Informações do perfil */
+.profile-info {
+    text-align: center;
+}
+
+.login {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.description {
+    color: gray;
+    margin: 5px 0;
+}
+
+/* Links dos ícones */
+.image-links {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-links a {
+    margin: 0 5px;
+}
+
+.image-links img {
+    width: 40px;  /* Define a largura dos ícones */
+    height: 40px;  /* Define a altura dos ícones */
+    border-radius: 5px;
+}
+
+/* Botão de contato */
+.contact-button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}

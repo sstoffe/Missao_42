@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Cor inicial do background */
+    transition: background-color 0.5s;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #BA55D3; /* Cor inicial do botão (lilás) */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}

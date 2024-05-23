@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela colorida</title>
+<style>
+    body {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    table {
+        flex: 1;
+        border-collapse: collapse;
+    }
+    tr, td {
+        padding: 100px;
+        text-align: left;
+        border: 2px solid black;
+    }
+   
+    td:nth-child(odd) {
+        background-color: green;
+    }
+    td:nth-child(even) {
+        background-color: pink;
+    }
+</style>
+</head>
+<body>
+
+<table>
+   
+       <tr>
+        <td style="color: white;">First Cell</td>
+        <td style="color: black;">Second Cell</td>
+    </tr>
+</table>
+
+</body>
+</html>

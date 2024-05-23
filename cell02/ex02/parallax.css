@@ -1,0 +1,39 @@
+/* Define a altura de cada seção */
+.parallax {
+    height: 100vh; /* Ocupa a altura total da viewport */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Primeira imagem de fundo */
+#section1 {
+    background-image: url('./WhatsApp\ Image\ 2024-05-23\ at\ 2.47.14\ PM.jpeg'); /* Substitua pelo caminho da sua imagem */
+}
+
+/* Segunda imagem de fundo */
+#section2 {
+    background-image: url('./WhatsApp\ Image\ 2024-05-23\ at\ 2.47.01\ PM.jpeg'); /* Substitua pelo caminho da sua imagem */
+}
+
+/* Estilo da mensagem central */
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Bloco de conteúdo */
+.content {
+    background-color: black;
+    color: white;
+    padding: 50px 40px;
+    text-align: center;
+    font-size: 1.5em;
+}

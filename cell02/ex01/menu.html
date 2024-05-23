@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNCF* Sandwich</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <h1>SNCF* Sandwich</h1>
+    <h2 onclick="toggleSanduiche()">Menu Suspenso</h2>
+    <div class="sanduiche" id="sanduiche">
+        <ul>
+            <li class="ingredientes">Pão Baguete</li>
+            <li class="ingredientes">Queijo Coalho</li>
+            <li class="ingredientes">Mostarda Dijon</li>
+            <li class="ingredientes">Alface Americana</li>
+            <li class="ingredientes">Tomate cereja</li>
+        </ul>
+    </div>
+    <img src="https://blog.nakednuts.com.br/wp-content/uploads/2021/03/como-fazer-sanduiche-natural-pode-ficar-fora-geladeira.png" alt="Sanduíche apetitoso" />
+
+    <script>
+        function toggleSanduiche() {
+            var sanduiche = document.getElementById("sanduiche");
+            if (sanduiche.style.display === "none") {
+                sanduiche.style.display = "block";
+            } else {
+                sanduiche.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
