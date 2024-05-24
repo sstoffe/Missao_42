@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Tarefas</title>
+    <style>
+        /* Estilos do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffcccb; /* Fundo rosa */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Estilos para o botão */
+        #add_task_btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #add_task_btn:hover {
+            background-color: #494a55;
+        }
+
+        /* Quadrado para a lista de tarefas */
+        #ft_list {
+            margin-top: 20px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        /* Estilos para cada tarefa */
+        .task {
+            background-color: #fff;
+            border: 1px solid #000000;
+            padding: 10px;
+            margin: 5px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botão para adicionar novas tarefas -->
+    <button id="add_task_btn">Adicionar tarefa</button>
+
+    <!-- Div onde as tarefas serão listadas -->
+    <div id="ft_list"></div>
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="todo.js"></script>
+</body>
+</html>
